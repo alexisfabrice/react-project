@@ -1,0 +1,35 @@
+.cumpus{
+    margin: 80px auto;
+    text-align: center;
+    width: 90%;
+}
+ .gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.gallery img{
+    width: 23%;
+    border-radius: 10px;
+    height: 300px;
+}
+.btn img{
+    height: 12px;
+    width: 30px;
+    font-weight: 900;
+}
+.btn.dark-btn{
+    background-color: rgb(64, 155, 64);
+}
+
+
+@media(max-width:650px){
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        margin-bottom: 25px;
+        width: 48%;
+    }
+}
